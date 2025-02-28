@@ -1,1 +1,0 @@
-# zhdanovich_homework2
