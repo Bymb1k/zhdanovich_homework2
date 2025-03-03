@@ -1,5 +1,5 @@
 # Zhdanovich Valery
-# Date: 28/02/2025
+# Date: 03/03/2025
 # Description: Homework 2
 # Grodno IT Academy Python 3.9.6
 
