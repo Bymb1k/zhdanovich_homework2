@@ -62,7 +62,7 @@ def common_price(m, n, s, l):
     return "Общая цена составляет " + str(a) + " рублей и " + str(v) + " копеек за " + str(d) + " товаров"
 price = common_price (10, 4, 7, 3)
 print(price)
-
+# Все верно
 
 
 # В функцию передаются аргументы: a, b, c - длины сторон треугольника.
@@ -86,7 +86,7 @@ def triangle(a, b, c):
 # Возвращаем округленную площадь до четырех десятичных знаков.
   return round(S, 4)
 print(triangle(3, 3, 3))
-
+# Все верно
 
 # Найти самое длинное слово в введенном предложении.
 # Учтите что в предложении могут быть знаки препинания.
@@ -125,7 +125,7 @@ def longest_word(sentence):
 sentence = "This is a sample sentence where the longest word is in the middle!"
 long_word = longest_word(sentence)
 print(long_word)
-
+# Все верно
 
 # Передается строка. Требуется удалить из нее повторяющиеся символы и все пробелы.
 # Например, если было передано "abc cde def", то должно быть выведено "abcdef".
@@ -144,7 +144,7 @@ def uniques(repeating_string):
 repeating_string = "abc cde def"
 output_string = uniques(repeating_string)
 print(output_string)
-
+# Все верно
 
 # Посчитать количество строчных (маленьких) и прописных (больших) букв в введенной строке.
 # Проверка рассчитана только на английские буквы.
@@ -166,3 +166,4 @@ def count_string_capitalization(mixed_string):
     return f"В строке '{mixed_string}' {uppercase_count} большие и {lowercase_count} маленькие буквы"
 result = count_string_capitalization("This is a sample sentence where the longest word is in the middle!")
 print(result)
+# Все верно
